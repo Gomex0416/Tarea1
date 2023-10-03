@@ -1,0 +1,43 @@
+/*Ccomentar en Css*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+    background-color: blueviolet;
+}
+header {
+    position: fixed;
+    background-color: crimson;    
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%
+}
+
+ 
+
+aside {
+    position: fixed;
+    background-color: aquamarine;    
+    top: 20%;
+    left: 0;
+    bottom: 20px;
+    width: 20%
+    height: 75%;
+    
+}
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: bisque;    
+    top: 20%;
+    left: 20%;
+    bottom: 20px;
+    width: 80%
+    height: 75%;
+    overflow-y:scroll;
+}
